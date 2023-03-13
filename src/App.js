@@ -1,7 +1,12 @@
-import { useState } from "react";
-import Dropdown from "./components/Dropdown";
+import Link from "./components/link";
 
 function App() {
+    return(
+        <div>
+            <Link to="/accordion">Go to Accordion</Link>
+            <Link to="/dropdown">Go to Dropdown</Link>
+        </div>
+    );
     
 }
 
